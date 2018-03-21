@@ -1,0 +1,235 @@
+@charset "utf-8";
+/**
+*
+* @project    xuedesign studio
+* @Author     Elmo Wu <hello@xuedesign.tw>
+* @copyright  2016 xuedesign studio
+* @version    v1.0 - 201609
+*
+**/
+
+#my-wrap{
+    display: block;
+    width: 957px;
+    margin: 0 auto;
+    background: #fff;
+    font-family: Microsoft JhengHei, "微軟正黑體", LiHei Pro, "儷黑體", PMingliu, "新細明體", sans-serif;}
+#page-title{
+    display: block;
+    width: 100%;
+    /*margin-bottom: 30px*/}
+#page-downad{
+    display: block;
+    width: 100%;
+    /*margin-bottom: 15px*/}
+#box_video{
+    display: block;
+    position: relative;
+    width: 100%;
+    /*height: 400px;*/
+    padding-bottom: 30px}
+.my-video{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    border: 2px solid #fff;
+    background: #000}
+#box_analyze,
+#box_extend,
+#box_focus{
+    display: block;
+    width: 100%}
+#box_analyze{ padding-bottom: 30px}
+
+#box_focus{ padding-bottom: 20px}
+#box_focus h3{
+    display: block;
+    float: left;
+    width: 80px;
+    min-height: 217px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: url(../images/pic_focus-title.png) no-repeat top center}
+#focus_title{
+    display: block;
+    float: right;
+    width: 876px}
+#focus_list li{
+    display: inline-block;
+    width: 424px;
+    vertical-align: top}
+#focus_list li:nth-child(1){
+    margin-right:23px}
+#focus_list h4{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 26px;
+    padding: 10px 10px 8px}
+
+#box_analyze li{
+    display: inline-block;
+    width: 300px;
+    margin-right: 23px;
+    vertical-align: top}
+#box_analyze li:nth-child(3),
+#box_related li:nth-child(3){
+    margin-right: 0}
+#box_analyze img{
+    display: block;
+    margin: 0 0 15px;
+    padding: 0}
+#box_analyze h4,
+#extend-list h4,
+#box_related h4,
+#box_analyze-side h4,
+#box_focus-side h4{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 0 10px 8px}
+#box_analyze p,
+#extend-list p,
+#box_related p,
+#box_analyze-side p,
+#box_focus-side p,
+#focus_list p{
+    font-size: 13px;
+    line-height: 22px;
+    padding: 0 10px;
+    color: #111}
+#box_analyze a:hover{
+   text-decoration: underline}
+
+#extend-title{
+    display: block;
+    width: 100%;
+    height: 29px;
+    margin-bottom: 20px}
+#extend-title h3{
+    font-size: 16px;
+    letter-spacing: 30px;
+    color: #fff;
+    text-align: center;
+    padding-top: 3px}
+#extend-title span{
+    font-weight: normal;
+    letter-spacing: 0;
+    margin-right: 15px}
+#extend-list{
+    display: block;
+    width: 957px;
+    padding-right: 30px}
+#extend-list a{
+    text-decoration: none}
+#extend-list a:hover{
+    text-decoration: underline}
+#extend-list ul{
+    display: block;
+    width: 950px;
+    margin: 0 auto}
+#extend-list li{
+    display: inline-block;
+    width: 470px;
+    padding-bottom: 30px;
+    vertical-align: top}
+#box_extend img{
+    display: block;
+    float: left;
+    width: 200px;
+    height: auto}
+.extend-info{
+    display: block;
+    float: right;
+    width: 260px;
+    padding-top: 0}
+/*#extend-adad{
+    display: block;
+    float: right;
+    width: 301px;
+    padding-right: 1px}*/
+#box_extend:after,
+#extend-list li:after{
+    display: block;
+    content: "";
+    clear: both;
+    font-size: 0;
+	height: 0;
+	visibility: hidden}
+
+#box_related{
+    display: block;
+    padding-bottom:20px}
+#box_related li{
+    display: block;
+    float: left;
+    width: 202px;
+    /*height: 240px;*//*#20171215修改*/
+    overflow: hidden;
+    margin-right: 16px;
+    margin-bottom: 10px}
+#box_related li:nth-child(3),
+#box_related li:nth-child(6),
+#box_related li:nth-child(9){
+    margin-right: 0}
+#box_related img{
+    display: block;
+    width: 200px;
+    margin: 0 0 15px;
+    padding: 0}
+
+#box_analyze-side,
+#box_focus-side{
+    display: block;
+    width: 270px;
+    margin: 0 auto}
+#box_analyze-side li,
+#box_focus-side li{
+    display: block;
+    width: 100%;
+    margin-bottom: 25px}
+#box_analyze-side img,
+#box_focus-side img{
+    display: block;
+    width: 270px;
+    margin: 0 0 15px;
+    padding: 0}
+#box_focus-side img{ height: auto}
+.share{ vertical-align: top}
+
+.format .basic_table tr:first-child td, 
+.fullwidth .basic_table tr:first-child td {
+    background: none;
+    border-bottom: 1px solid #808080;}
+.format .basic_table tr td:first-child, 
+    .format .basic_table tr td:last-child {
+    padding: 6px 0;}
+.articleheadtitle-2{
+    background: url(../images/subtitle_bg.jpg) 0 0 repeat-x;
+    border: #808080 1px solid;
+    color: #000;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center}
+.contbody .basic_table{
+    font-family: Tahoma, LiHei Pro, "儷黑體", Microsoft JhengHei, "微軟正黑體", PMingliu, "新細明體", sans-serif;
+    font-size: 13px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse; 
+    border-spacing: 0}
+.contbody .basic_table th{ 
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #9a9a9a}
+.contbody .basic_table td{
+    padding: 10px 0;
+    border-bottom: 1px dotted #9a9a9a}
+.td-left{ text-align: left}
+
+.claen{ clear: both}
+.banner{ margin-bottom: 10px}
+

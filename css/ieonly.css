@@ -1,0 +1,62 @@
+@charset"utf-8";
+.search-input {
+	padding: 2px;
+	top: 1px;
+}
+.search-button {
+	padding: 3px 5px;
+}
+.button, .contbody form .button {
+	padding: 4px 8px 0;
+}
+.filter {
+	margin-bottom: 8px;
+	padding: 6px 15px 3px;
+}
+form input.filter-change {
+	padding: 3px 5px 1px 8px;
+	position: relative;
+	top: -2px;
+}
+.sr_print {
+	background: url("../images/a_line.gif") 85px 4px no-repeat;
+	line-height: 24px;
+	height: 24px;
+}
+.listview.listcont h3 {
+	font-weight: 400;
+}
+.listconttext {
+	padding-top: 4px;
+}
+.articleinfo {
+	margin: 6px 0 0px;
+}
+.postcont h2 {
+	margin: 20px auto;
+}
+.profile p {
+	font-size: 80%;
+}
+.related ul li ol {
+	margin-top: -2px;
+}
+#pagebody .page a.long {
+    top: -2px;
+}
+.sidenewlist li em {
+	display: inline;
+	padding: 2px 4px 3px;
+	zoom: 1;
+}
+.sidenewlist li {
+	line-height: 20px;
+	padding: 3px 0 5px;	
+}
+.sidenewlist li em {
+	line-height: 13px;
+	padding: 1px 2px 2px 3px;
+}
+.clearfix, .profile {
+	zoom: 1;
+}
