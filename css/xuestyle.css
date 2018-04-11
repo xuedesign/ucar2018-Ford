@@ -233,3 +233,9 @@
 .claen{ clear: both}
 .banner{ margin-bottom: 10px}
 
+.banner img,
+.postcont img{
+    width: 640px;
+    height: auto
+}
+
